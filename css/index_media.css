@@ -43,6 +43,7 @@ article h3{
     background-color:rgba(21, 2, 23, 0.9);
     padding-top:25vh;
     box-sizing:border-box;
+    
   }
   nav>ul{
     width:80%;
@@ -242,7 +243,9 @@ nav{
   background-color:rgba(21, 2, 23, 0.9);
   z-index:1100;
   padding-top:25vh;
-  box-sizing:border-box;}
+  box-sizing:border-box;
+
+}
 nav>ul{
   width:70vw;
   margin: 0 auto;
@@ -396,7 +399,7 @@ p.next{
 
 @media screen and (max-width:980px){
  #modal{
-  display:block;
+  display:none;
   padding:6.66vh 5vw 3.333vh;
   box-sizing:border-box;}
  #modal>.close{
